@@ -1,0 +1,13 @@
+.tickerDisplay {
+    width: 150px;
+    margin-right: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+
+.tickerDisplay__value {
+    padding: 10px;
+    background-color: #228B22;
+    border: 1px solid black;
+}
