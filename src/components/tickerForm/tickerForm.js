@@ -6,7 +6,7 @@ const TickerForm = props => {
         <form>
             <label>Select symbol:</label>
             <br />
-            <select {...props.value} onChange={props.onChange}>
+            <select {...props.value} value={props.value} onChange={props.onChange}>
                 <option value="AAPL">AAPL</option>
                 <option value="AALP">AALP</option>
             </select>
